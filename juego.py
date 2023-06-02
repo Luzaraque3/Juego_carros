@@ -40,11 +40,11 @@ bt_jugar = Button(frame_controles,text="Jugar", command=jugar)
 bt_jugar.place(x=235, y=85, width=100, height=30)
 
 #carros
-img_carro_1 = PhotoImage(file="Img/carro_1.avif")
+img_carro_1 = PhotoImage(file="Img/carro_1.png")
 carro_1 = c.create_image(BASE/3,ALTURA/3,image=img_carro_1)
 #carros
-"""img_carro_2 = PhotoImage(file="Img/carro2.png")
-carro_2 = c.create_image(BASE/2,ALTURA/2,image=img_carro_2)"""
+img_carro_2 = PhotoImage(file="Img/carro_2.png")
+carro_2 = c.create_image(BASE/2,ALTURA/2,image=img_carro_2)
 
 
 #desplegar ventana
