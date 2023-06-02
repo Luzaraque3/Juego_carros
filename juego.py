@@ -41,10 +41,10 @@ bt_jugar.place(x=235, y=85, width=100, height=30)
 
 #carros
 img_carro_1 = PhotoImage(file="Img/carro_1.png")
-carro_1 = c.create_image(BASE/3,ALTURA/3,image=img_carro_1)
+carro_1 = c.create_image(BASE/2-230,ALTURA/4-20,image=img_carro_1)
 #carros
 img_carro_2 = PhotoImage(file="Img/carro_2.png")
-carro_2 = c.create_image(BASE/2,ALTURA/2,image=img_carro_2)
+carro_2 = c.create_image(BASE/2-230,ALTURA/2+120,image=img_carro_2)
 
 
 #desplegar ventana
